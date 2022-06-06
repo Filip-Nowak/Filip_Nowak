@@ -11,7 +11,7 @@
 }
 .zdj2{
     width:84%;
-    height: 100%;
+    height: auto;
     position:absolute;
     opacity: 30%;
     z-index: -100;
