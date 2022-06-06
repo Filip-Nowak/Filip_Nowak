@@ -1,0 +1,39 @@
+.tytul{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 200%;
+}
+.zdj1{
+    float:right;
+    border:black 1px solid;
+    width:30%;
+    height: auto;
+}
+.zdj2{
+    width:100%;
+    height: auto;
+    position:absolute;
+    opacity: 30%;
+    z-index: -100;
+    left:16%;
+    top:19%;
+    
+}
+#informacje{
+    overflow: auto;
+    color:black;
+}
+#ank{
+    width:80%;
+    height:500px;
+    background-color: white;
+    left:50%;
+    padding: 5% 10%;
+}
+form{
+    font-size:70%;
+    z-index: 2;
+}
+fieldset{
+    width: 70%;
+}

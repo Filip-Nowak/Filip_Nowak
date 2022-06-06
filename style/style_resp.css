@@ -1,0 +1,198 @@
+@media screen and (max-width:1200px){
+    #logo{
+        width: 175px;
+        letter-spacing: 5px;
+        text-shadow: 3px 2px black;
+    }
+    #siedem{
+        font-size: 60px;
+        margin:0;
+        padding:0;
+        height:50px;
+        top:-10px;
+    }
+    #cudow{
+        font-size: 25px;
+        height:50px;
+        line-height: 25px;
+    }
+    
+    #tresc{
+        font-size: 20px;
+    }
+    ol{
+        font-size: 20px;
+    }
+    ol>li{
+        font-size: 20px;
+        width:140px;
+        border-right: #2727ab solid 1px;
+        border-left: #2727ab solid 1px;
+    }
+    .rozwin{
+        height: 20px;
+    }
+    #upo1{
+        border-left: #2727ab solid 2px;
+    }
+    #upo2{
+        border-right: #2727ab solid 2px;
+    }
+    ol>li>ul>li{
+        height:10px;
+        padding-top:5px;
+        font-size: 50%;
+    }
+    #menu{
+        height:3%;
+        padding-top: 2px;
+        text-align: center;
+    }
+    #naglowek{
+        height:8%;
+        border-bottom: darkblue 3px solid;
+        padding-top: 10px;
+    }
+    #menu_boczne{
+        width:16%;
+        height:100%;
+        font-size:18px;
+    }
+    #linki{
+        width:100%;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 100%;
+    }
+    #footer{
+        height:25px;
+    }
+    .okno{
+        width:30%;
+    }
+    .upo3{
+        margin-left: 8%;
+    }
+    .upo5{
+        margin-left: 30%;
+    }
+    #zdj_gl{
+        height: auto;
+        width:95%;
+    }
+    .zdj2{
+        z-index: -100;
+        top:9%;
+        
+    }
+}
+@media screen and (max-width:600px){
+    #tresc{
+        font-size: 12px;
+    }
+    #naglowek{
+        height:5%;
+        border-bottom: darkblue 2px solid;
+        padding-top: 5px;
+    }
+    #logo{
+        width: 110px;
+        letter-spacing: 3px;
+        text-shadow: 2px 1px black;
+    }
+    #siedem{
+        font-size: 40px;
+        height:30px;
+        top:-8px;
+    }
+    #cudow{
+        font-size: 15px;
+        height:30px;
+        line-height: 15px;
+    }
+    #menu > ol{
+        font-size: 15px;
+        background-color: #2727ab;
+        display:none;
+        position: relative;
+        width: 40%;
+        height: auto;
+        border:1px #2727ab solid;
+    }
+    ol>li{
+        clear:both;
+        width: 80%;
+        border-right: #2727ab solid 1px;
+        border-left: #2727ab solid 0px;
+        background-color: #82c5ff;
+    }
+    .rozwin{
+        height: 15px;
+    }
+    #upo1{
+        border-left: none;
+    }
+    #upo1:hover{
+        border: #2727ab solid 1px;
+    }
+    #upo2{
+        border-right: #2727ab solid 1px;
+        border-bottom: #2727ab solid 1px;
+    }
+    #upo4{
+        margin-left:20px;
+    }
+    ol>li>ul{
+        float:left;
+        
+    }
+    ol>li>ul>li{
+        height:8px;
+        padding-top:2px;
+    }
+    #menu{
+        height:2%;
+        padding-top: 1px;
+        text-align: center;
+    }
+    #menu:hover > ol{
+        display: inline-block;
+    }
+    #telefon{
+        display: block;
+    }
+    #menu_boczne{
+        width:16%;
+        height:100%;
+        font-size:10px;
+    }
+    #linki{
+        margin-left:-20px;
+        width:100%;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 100%;
+    }
+    .okno{
+        height: 200px;
+        width:50%;
+        background-repeat: no-repeat;
+        margin-left: 25%;
+    }
+    .tytul_okna{
+
+        font-size:10px;
+        background-color: darkblue;
+    }
+    .opis_okna{
+        display:none;
+        height:25px;
+    }
+    #zdj_gl{
+        height:auto;
+        width:95%;
+    }
+    .zdj2{
+        top:7%;
+    }
+}
